@@ -16,8 +16,7 @@
 };
 
 &trackball {
-     automouse-layer = <7>;
-
+    automouse-layer = <7>;
     scroll-layers = <5>;
 
     // arrows {
@@ -88,28 +87,28 @@
 
         default_layer {
             bindings = <
-&kp Q        &kp W            &kp E              &kp R        &kp T                                           &kp Y         &kp U        &kp I            &kp O       &lt 0 P
+&kp Q        &kp W            &kp E              &kp R        &kp T                                           &kp Y         &kp U        &lt 5 I          &kp O       &lt 7 P
 &mt LCTRL A  &mt LGUI S       &mt LALT D         &mt LSHFT F  &kp G        &kp ESCAPE        &kp DELETE       &kp H         &mt RSHFT J  &mt RIGHT_ALT K  &mt RGUI L  &mt RCTRL SEMICOLON
 &kp Z        &kp X            &kp C              &kp V        &kp B        &kp CAPSLOCK      &kp PRINTSCREEN  &kp N         &kp M        &kp COMMA        &kp DOT     &lt 5 SLASH
-&mo 6        &kp C_VOLUME_UP  &kp C_VOLUME_DOWN  &lt 4 TAB    &lt 5 SPACE  &lt 2 ENTER       &lt 1 BACKSPACE  &lt 3 ESCAPE                                            &kp K_MUTE
+&mo 6        &kp C_VOLUME_UP  &kp C_VOLUME_DOWN  &lt 4 TAB    &lt 5 SPACE  &lt 2 ENTER       &lt 1 BACKSPACE  &lt 3 ESCAPE                                            &lt 8 K_MUTE
             >;
         };
 
         FUNCTION {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                           &caps_word       &kp F7  &kp F8  &kp F9  &kp F10
-&trans  &trans  &trans  &trans  &trans  &trans      &trans       &kp PRINTSCREEN  &kp F4  &kp F5  &kp F6  &kp F11
-&trans  &trans  &trans  &trans  &trans  &trans      &bootloader  &trans           &kp F1  &kp F2  &kp F3  &kp F12
-&trans  &trans  &trans  &trans  &trans  &trans      &trans       &trans                                   &trans
+&trans  &trans  &trans  &trans  &trans                      &caps_word       &kp F7  &kp F8  &kp F9  &kp F10
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp PRINTSCREEN  &kp F4  &kp F5  &kp F6  &kp F11
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans           &kp F1  &kp F2  &kp F3  &kp F12
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                   &trans
             >;
         };
 
         NUM {
             bindings = <
-&kp MINUS  &kp N7        &kp N8        &kp N9        &kp N0                              &trans  &trans  &trans  &trans  &trans
-&kp SQT    &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans     &trans           &trans  &trans  &trans  &trans  &trans  &trans
-&kp EQUAL  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp GRAVE  &bootloader      &trans  &trans  &trans  &trans  &trans  &trans
-&trans     &trans        &trans        &trans        &trans     &trans           &trans  &trans                          &trans
+&kp MINUS  &kp N7        &kp N8        &kp N9        &kp N0                         &trans  &trans  &trans  &trans  &trans
+&kp SQT    &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans     &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&kp EQUAL  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp GRAVE  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans     &trans        &trans        &trans        &trans     &trans      &trans  &trans                          &trans
             >;
         };
 
@@ -143,18 +142,27 @@
         layer_Ble {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                           &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
-&trans  &trans  &trans  &trans  &trans  &trans      &trans       &out OUT_BLE  &out OUT_USB  &trans        &trans        &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &bootloader  &trans        &trans        &trans        &trans        &bt BT_CLR
-&trans  &trans  &trans  &trans  &trans  &trans      &trans       &trans                                                  &bt BT_CLR_ALL
+&trans  &trans  &trans  &trans  &trans  &bootloader      &trans  &out OUT_BLE  &out OUT_USB  &trans        &trans        &trans
+&trans  &trans  &trans  &trans  &trans  &trans           &trans  &trans        &trans        &trans        &trans        &bt BT_CLR
+&trans  &trans  &trans  &trans  &trans  &trans           &trans  &trans                                                  &bt BT_CLR_ALL
             >;
         };
 
         mouse {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans     &trans     &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp LCLK  &mkp MCLK  &mkp RCLK  &mo 5
+&trans  &trans  &trans  &trans  &trans                      &trans  &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans     &trans     &trans     &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans     &trans     &trans     &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                   &trans
+            >;
+        };
+
+        layer_8 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                           &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &bootloader  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans       &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans       &trans                          &trans
             >;
         };
     };
