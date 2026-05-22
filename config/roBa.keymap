@@ -1,4 +1,4 @@
-#include <behaviors.dtsi>
+u#include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
@@ -16,7 +16,7 @@
 };
 
 &trackball {
-    automouse-layer = <7>;
+    // jjautomouse-layer = <7>;
     scroll-layers = <5>;
 
     // arrows {
