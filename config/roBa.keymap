@@ -106,10 +106,10 @@
 
         NUM {
             bindings = <
-&kp MINUS    &kp N7        &kp N8        &kp N9        &kp N0                         &kp K_UNDO  &kp K_COPY        &kp K_PASTE        &kp K_CUT      &kp K_REDO
-&kp SQT      &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans     &trans      &trans  &trans      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH  &trans
-&kp EQUAL    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp GRAVE  &trans      &trans  &trans      &trans            &trans             &trans         &trans
-&bootloader  &trans        &trans        &trans        &trans     &trans      &trans  &trans                                                          &trans
+&kp MINUS    &kp N7        &kp N8        &kp N9        &kp N0                         &kp RC(Z)  &kp RC(C)         &kp RC(V)          &kp RC(X)      &kp RC(Y)
+&kp SQT      &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans     &trans      &trans  &trans     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH  &trans
+&kp EQUAL    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp GRAVE  &trans      &trans  &trans     &trans            &trans             &trans         &trans
+&bootloader  &trans        &trans        &trans        &trans     &trans      &trans  &trans                                                         &trans
             >;
         };
 
@@ -133,10 +133,10 @@
 
         SCROLL {
             bindings = <
-&trans      &trans      &trans       &trans     &trans                          &trans  &trans  &trans  &trans  &trans
-&kp K_UNDO  &kp K_COPY  &kp K_PASTE  &kp K_CUT  &kp K_REDO  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans      &trans      &trans       &trans     &trans      &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans      &trans      &trans       &trans     &trans      &trans      &trans  &trans                          &trans
+&trans     &trans     &trans     &trans     &trans                         &trans  &trans  &trans  &trans  &trans
+&kp LC(Z)  &kp LC(C)  &kp LC(V)  &kp LC(X)  &kp LC(Y)  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans     &trans     &trans     &trans     &trans     &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans     &trans     &trans     &trans     &trans     &trans      &trans  &trans                          &trans
             >;
         };
     };
