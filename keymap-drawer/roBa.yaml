@@ -28,8 +28,8 @@ layers:
   - C
   - V
   - B
-  - CAPSLOCK
-  - PRINTSCREEN
+  - Ble
+  - FUNCTION
   - N
   - M
   - {t: ',', h: RIGHT ALT}
@@ -38,10 +38,10 @@ layers:
   - LEFT CONTROL
   - LGUI
   - LEFT ALT
-  - {t: TAB, h: Ble}
+  - {t: TAB, h: NUM}
   - SPACE
-  - {t: ENTER, h: NUM}
-  - {t: BACKSPACE, h: FUNCTION}
+  - ENTER
+  - BACKSPACE
   - RSHFT
   - RGUI
   FUNCTION:
@@ -55,11 +55,11 @@ layers:
   - F8
   - F9
   - F10
-  - Gui+Z
-  - Gui+C
-  - Gui+V
-  - Gui+X
-  - Gui+Sft+Z
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -73,7 +73,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - F1
   - F2
@@ -85,7 +85,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&bootloader'
   NUM:
@@ -94,11 +94,11 @@ layers:
   - '8'
   - '9'
   - '0'
-  - Ctl+Z
-  - Ctl+C
-  - Ctl+V
-  - Ctl+X
   - Ctl+Y
+  - Ctl+V
+  - Ctl+C
+  - Ctl+X
+  - Ctl+Z
   - ''''
   - '4'
   - '5'
@@ -123,12 +123,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&bootloader'
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -148,8 +148,8 @@ layers:
   - Gui+V
   - Gui+X
   - Gui+Sft+Z
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - CAPSLOCK
+  - PRINTSCREEN
   - OUT BLE
   - OUT USB
   - {t: ▽, type: trans}
@@ -160,17 +160,17 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - BT CLR
+  - '&bootloader'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -221,21 +221,21 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   SCROLL:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - Ctl+Z
+  - Ctl+X
   - Ctl+C
   - Ctl+V
-  - Ctl+X
   - Ctl+Y
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Gui+Z
+  - Gui+X
+  - Gui+C
+  - Gui+V
+  - Gui+Sft+Z
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
