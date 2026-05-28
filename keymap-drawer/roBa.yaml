@@ -38,10 +38,10 @@ layers:
   - LEFT CONTROL
   - LGUI
   - LEFT ALT
-  - NUM
-  - SPACE
-  - ENTER
   - BACKSPACE
+  - SPACE
+  - Sym_Num
+  - ENTER
   - RSHFT
   - RGUI
   FUNCTION:
@@ -88,7 +88,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&bootloader'
-  NUM:
+  Sym_Num:
   - '-'
   - '7'
   - '8'
@@ -103,18 +103,19 @@ layers:
   - '4'
   - '5'
   - '6'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - '['
   - ']'
-  - \
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '='
   - '1'
   - '2'
   - '3'
+  - \
   - '`'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -126,9 +127,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
